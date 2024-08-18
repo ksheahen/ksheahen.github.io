@@ -328,9 +328,10 @@ footer {
     }
 
     .hero {
-        margin-top: -4rem;
+        /*margin-top: -4rem;*/
         flex-direction: column;
         gap:0;
+        margin: 150px 0 50px 100px;
     }
     .hero img {
         visibility: hidden;
@@ -339,6 +340,8 @@ footer {
         float: left;
         margin: auto;
         width: 20%;
+        /*height: 20rem;*/
+        /*width: 26rem;*/
     }
     .bio {
         margin-top: -7rem;
@@ -353,12 +356,12 @@ footer {
         text-align: center;
     }
     .more-about p {
-        text-align: justify;
+        /*text-align: justify;*/
     }
 
     .icon {
-        width: 5.875rem;
-        height: 5.25rem;
+        /*width: 5.875rem;*/
+        /*height: 5.25rem;*/
     }
 
     .projects-container {
@@ -371,9 +374,10 @@ footer {
 
 @media screen and (max-width: 420px) {
     .hero {
-        margin-top: -4rem;
+        /*margin-top: 100px;*/
         flex-direction: column;
         gap:0;
+        margin: 150px 100px 100px 120px;
     }
     .hero img {
         visibility: hidden;
