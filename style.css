@@ -373,7 +373,7 @@ footer {
 
     .bio {
         width: 18.3rem;
-        gap: 1.5rem;
+        margin: auto;
     }
 
     .project-container {
