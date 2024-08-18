@@ -369,10 +369,10 @@ footer {
     .hero img {
         visibility: hidden;
         display: none;
-        clear: both;
-        float: left;
-        margin: auto;
-        width: 20%;
+        /*clear: both;*/
+        /*float: left;*/
+        /*margin: auto;*/
+        /*width: 20%;*/
     }
 
     .bio {
