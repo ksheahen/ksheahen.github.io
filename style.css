@@ -331,7 +331,7 @@ footer {
         /*margin-top: -4rem;*/
         flex-direction: column;
         gap:0;
-        margin: 150px 100px 150px 100px;
+        margin: 150px auto; /*100px 150px 100px;*/
     }
     .hero img {
         visibility: hidden;
