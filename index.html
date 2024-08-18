@@ -1,0 +1,240 @@
+<!--Kathryn Sheahen's Portfolio-->
+<!--Last Updated: 8/17/2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
+    <title>Kathryn Sheahen</title>
+    <!--Linking CSS file-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon/Tab Icon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icon.png">
+
+</head>
+
+<body>
+<!--Navigation-->
+<nav>
+    <!--Name (top left)-->
+    <h1>KATHRYN SHEAHEN</h1>
+    <!--Unordered List for Navigation Bar-->
+    <ul class="navigation">
+        <li><a href="#more-about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://www.linkedin.com/in/kathrynsheahen/" target="_blank">Contact</a></li>
+    </ul>
+
+    <!--Ion Icon (for mobile)-->
+    <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+
+</nav>
+
+<!--Hero Section-->
+<section class="hero" id="about">
+    <!--Hero image-->
+    <img src="/images/Professional_Headshot.png"
+         alt="professional-headshot"
+         loading="lazy"
+         class="hero-img">
+
+    <!--Hero Title and Bio-->
+    <div class="bio animate_animated animate__shakeX">
+
+        <h2 class="bio-title">Hi y'all! I'm Kathryn Sheahen.&#128075</h2>
+        <p class="bio-text">
+            An ambitious student at the University of North Texas, studying
+            Computer Science to become a Software Engineer.
+        </p>
+
+        <!--Hero: Contact button-->
+        <a href="https://www.linkedin.com/in/kathrynsheahen/" target="_blank">
+            <input type="button"
+                   value="Say Hello on LinkedIn"
+                   id="email-btn"
+                   class="email-btn"
+
+            >
+        </a>
+    </div>
+</section>
+
+
+<!--About Section-->
+<section class="more-about" id="more-about">
+    <!--About Me paragraphs-->
+    <h2>About Me</h2>
+    <p>
+        Hi there! I'm Kathryn Sheahen, a passionate Computer Science student with an interest in
+        full-stack development. Currently, I'm pursing my degree at the University of North Texas, where I am
+        expanding on my knowledge of programming and its many concepts. I'm also currently seeking
+        a Software Engineer internship position.
+    </p>
+    <p>
+        My coding journey began in 2021 when I took a college course in programming to learn something new for fun.
+        From there, I became fascinated with programming and decided I wanted to pursue a career in tech, and create
+        unique applications that solve real-world problems and help shape our world. I have experience with
+        a range of programming languages, including C++, Java, Assembly, Python, HTML, CSS, and JavaScript,
+        and have worked on various personal and academic projects. In addition to my coursework, I actively
+        engage in coding challenges and work on personal projects to continuously sharpen my skills.
+        I'm also involved in the University of North Texas's Computer Science & Computer Engineering
+        club where I collaborate and learn with my peers.
+    </p>
+    <p>
+        Outside of my academics, I enjoy playing video games, gardening, and bike riding. I'm always eager
+        to connect with like-minded individuals and explore new opportunities in the tech field, so
+        feel free to connect with me on LinkedIn!
+    </p>
+
+</section>
+<!--Skills Section-->
+<section class="skills" id="skills">
+    <!--Skills Title-->
+    <h2 class="skill-header">My Skills</h2>
+
+    <!--Skill Icons-->
+    <div class="skills-wrapper">
+        <!--First set of icons-->
+        <div class="first-set animate__animated animate__pulse">
+            <!--C++ Icon-->
+            <img src="/images/cpp_logo.png"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+            <!--Java Icon-->
+            <img src="/images/java_logo.jpg"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+            <!--Python Icon-->
+            <img src="/images/python_logo.png"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+        </div>
+        <!--Second set of icons-->
+        <div class="second-set animate__animated animate__pulse">
+            <!--HTML Icon-->
+            <img src="/images/html_logo.png"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+            <!--CSS Icon-->
+            <img src="/images/css_logo.png"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+            <!--JavaScript Icon-->
+            <img src="/images/JS_logo.png"
+                 alt=""
+                 loading="lazy"
+                 class="icon icon-card"
+            >
+        </div>
+    </div>
+</section>
+
+<!--Projects Section-->
+<section class="projects" id="projects">
+    <!--Project Main Title-->
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="projects-container">
+        <!--Project 1-->
+        <div class="project-container project-card">
+            <img src="/images/icon.png"
+                 alt="project 1"
+                 loading="lazy"
+                 class="project-pic"
+            >
+            <h3 class="project-title">Sudoku</h3>
+            <p class="project-details">
+                Play a game of Sudoku in the console.
+            </p>
+            <a href="https://github.com/ksheahen/Console-Sudoku" target="_blank" class="project-link">Check it out</a>
+        </div>
+        <!--Project 2-->
+        <div class="project-container project-card">
+
+            <img src="/images/icon.png"
+                 alt="project 2"
+                 loading="lazy"
+                 class="project-pic"
+            >
+            <h3 class="project-title">Employee Payroll</h3>
+            <p class="project-details">
+                A payroll program that allows the user to input the employee’s data, hours worked,
+                and pay rate to calculate their gross pay.
+            </p>
+            <a href="https://github.com/ksheahen/Employee-Payroll" target="_blank" class="project-link">Check it out</a>
+        </div>
+        <!--Project 3-->
+        <div class="project-container project-card">
+
+            <img src="/images/icon.png"
+                 alt="project 3"
+                 loading="lazy"
+                 class="project-pic"
+            >
+            <h3 class="project-title">Create Your Garden</h3>
+            <p class="project-details">
+                Learn how to start and cultivate your own garden.
+                (Currently in development)
+            </p>
+            <a href="https://github.com/ksheahen/Garden" target="_blank" class="project-link">Check it out</a>
+        </div>
+    </div>
+    <!--Project Section: GitHub Button-->
+    <div class="btn-container" id="btn-container">
+        <div class="btn-center">
+            <a href="https://github.com/ksheahen" target="_blank">
+                <input type="button"
+                       value="-> See My Projects on GitHub"
+                       id="github-btn"
+                       class="github-btn"
+
+                >
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--Footer Section-->
+<footer>
+    <p class="copy">&copy; Copyright 2024</p>
+    <p class="copy">
+        Built by
+        <a href="https://www.linkedin.com/in/kathrynsheahen/" target="_blank"
+        >Kathryn Sheahen</a>
+    </p>
+</footer>
+
+<!--Scroll to Top-->
+<i class="scroll-up" id="scroll-up">
+    <!--Scroll Image-->
+    <img src="images/up_arrow.png"
+         class="up-arrow"
+         alt="up-arrow" >
+
+</i>
+
+<!--Scripts-->
+<script src="app.js"></script>
+
+<!--Ion Icon Scripts (for mobile)-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
