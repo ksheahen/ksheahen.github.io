@@ -370,8 +370,8 @@ footer {
         visibility: hidden;
         display: none;
         /*clear: both;*/
-        /*float: left;*/
-        /*margin: auto;*/
+        float: left;
+        margin: auto;
         /*width: 20%;*/
     }
 
