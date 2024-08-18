@@ -375,8 +375,11 @@ footer {
 @media screen and (max-width: 420px) {
     .hero {
         /*margin-top: 100px;*/
-        flex-direction: column;
-        gap:0;
+        /*flex-direction: column;*/
+        /*gap:0;*/
+        /*margin: 150px auto;*/
+        clear: both;
+        min-width: 220px;
         margin: 150px auto;
     }
     .hero img {
@@ -390,7 +393,7 @@ footer {
 
     .bio {
         width: 18.3rem;
-        margin: auto;
+        /*margin: auto;*/
     }
 
     .project-container {
